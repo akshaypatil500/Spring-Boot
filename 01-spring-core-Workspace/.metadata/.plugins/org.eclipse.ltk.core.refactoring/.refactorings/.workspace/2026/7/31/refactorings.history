@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy Project &apos;17-BeanObject-Override-Scenario&apos;" description="Copy Project &apos;17-BeanObject-Override-Scenario&apos;" destination="D:/JAVA/Spring-Boot-2026/SB-Workspaces/01-spring-core-Workspace" element="/17-BeanObject-Override-Scenario" flags="7" id="org.eclipse.ltk.core.refactoring.copyproject.resource" name="Singelton-Design-Pattern" stamp="1785074286371"/>
+</session>

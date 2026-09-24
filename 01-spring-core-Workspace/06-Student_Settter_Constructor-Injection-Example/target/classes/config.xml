@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="student" class="com.tca.bean.Student">
+		<constructor-arg name="rno" value="101"></constructor-arg>
+		<constructor-arg name="name" value="AAA"></constructor-arg>
+		<constructor-arg name="fees" value="20000"></constructor-arg>
+
+		<!-- <property name="passportId" value="345234"></property> -->
+	</bean>
+
+</beans>
+

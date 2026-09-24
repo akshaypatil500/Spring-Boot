@@ -1,0 +1,89 @@
+// Early Initialization Singelton Variable
+/*
+package com.tca.service;
+
+public class Car {
+	
+	private static Car ob=new Car();
+	
+	private Car() {}
+	
+	public static Car getInstance()
+	{
+		return ob;
+	}	
+}
+*/
+
+// Lazy Initialization Singelton Variable
+/*
+package com.tca.service;
+
+public class Car {
+	
+	private static Car ob=null;
+	
+	private Car() {}
+	
+	public static Car getInstance()
+	{
+		if(ob==null)
+		{
+			ob=new Car();
+		}
+		return ob;
+	}	
+}
+*/
+
+
+//Lazy Initialization with thread Safety
+/*
+package com.tca.service;
+
+public class Car {
+	
+	 private static Car ob=null;
+	 
+	 private Car() {}
+	 
+	 public synchronized static Car getInstance()
+	 {
+		 if(ob==null)
+		 {
+			 ob=new Car();
+		 }
+		 
+		 return ob;
+	 }
+	 
+}
+*/
+
+//Double Checking with thread Safety using Synchronized Block
+
+package com.tca.service;
+
+public class Car {
+	
+	 private static Car ob=null;
+	 
+	 private Car() {}
+	 
+	 public static Car getInstance()
+	 {
+		 if(ob==null)
+		 {
+			synchronized(Car.class)  
+			{ 
+		     if(ob==null)   //t2 will check will get false then won't go directly return existing ob
+		     {
+			 ob=new Car();
+		     }
+		    }
+	     }
+		 return ob;                   // Return Existing Object
+	 }
+		
+	 }
+	 

@@ -1,0 +1,77 @@
+2026-06-26 13:03:20.589: [INFO] OnDoneLoading sync enabled: 0
+2026-06-27 11:08:21.234: [INFO] OnDoneLoading sync enabled: 0
+2026-06-27 11:09:11.001: [INFO] OnDoneLoading sync enabled: 0
+2026-06-27 11:09:59.046: [INFO] OnDoneLoading sync enabled: 0
+2026-06-27 11:10:56.948: [INFO] OnDoneLoading sync enabled: 0
+2026-06-27 11:13:50.053: [INFO] OnDoneLoading sync enabled: 0
+2026-06-27 11:14:07.977: [INFO] OnDoneLoading sync enabled: 0
+2026-06-27 11:26:52.122: [INFO] OnDoneLoading sync enabled: 0
+2026-06-28 09:50:25.835: [INFO] OnDoneLoading sync enabled: 0
+2026-06-28 09:53:06.062: [INFO] OnDoneLoading sync enabled: 0
+2026-06-28 10:04:23.716: [INFO] OnDoneLoading sync enabled: 0
+2026-06-29 10:58:48.811: [INFO] OnDoneLoading sync enabled: 0
+2026-06-29 11:46:33.180: [INFO] OnDoneLoading sync enabled: 0
+2026-06-29 11:46:37.895: [INFO] OnDoneLoading sync enabled: 0
+2026-06-29 11:56:26.906: [INFO] OnDoneLoading sync enabled: 0
+2026-06-29 11:56:33.110: [INFO] OnDoneLoading sync enabled: 0
+2026-06-29 11:57:56.889: [INFO] OnDoneLoading sync enabled: 0
+2026-06-29 11:58:05.566: [INFO] OnDoneLoading sync enabled: 0
+2026-06-29 12:20:45.767: [INFO] OnDoneLoading sync enabled: 0
+2026-06-30 11:22:02.366: [INFO] OnDoneLoading sync enabled: 0
+2026-07-01 08:23:02.567: [INFO] OnDoneLoading sync enabled: 0
+2026-07-01 08:55:39.523: [INFO] OnDoneLoading sync enabled: 0
+2026-07-02 11:17:03.451: [INFO] OnDoneLoading sync enabled: 0
+2026-07-02 11:30:28.268: [INFO] OnDoneLoading sync enabled: 0
+2026-07-03 07:51:44.903: [INFO] OnDoneLoading sync enabled: 0
+2026-07-03 12:11:57.111: [INFO] OnDoneLoading sync enabled: 0
+2026-07-05 09:34:26.136: [INFO] OnDoneLoading sync enabled: 0
+2026-07-05 09:36:11.310: [INFO] OnDoneLoading sync enabled: 0
+2026-07-05 09:36:37.118: [INFO] OnDoneLoading sync enabled: 0
+2026-07-07 08:25:34.146: [INFO] OnDoneLoading sync enabled: 0
+2026-07-07 08:30:37.424: [INFO] OnDoneLoading sync enabled: 0
+2026-07-07 09:10:44.771: [INFO] OnDoneLoading sync enabled: 0
+2026-07-07 09:13:41.386: [INFO] OnDoneLoading sync enabled: 0
+2026-07-18 11:03:41.575: [INFO] OnDoneLoading sync enabled: 0
+2026-07-18 11:54:44.185: [INFO] OnDoneLoading sync enabled: 0
+2026-07-18 11:55:05.171: [INFO] OnDoneLoading sync enabled: 0
+2026-07-18 11:55:26.384: [INFO] OnDoneLoading sync enabled: 0
+2026-07-18 11:56:16.035: [INFO] OnDoneLoading sync enabled: 0
+2026-07-18 11:58:29.391: [INFO] OnDoneLoading sync enabled: 0
+2026-07-18 11:59:27.794: [INFO] OnDoneLoading sync enabled: 0
+2026-07-18 11:59:38.141: [INFO] OnDoneLoading sync enabled: 0
+2026-07-18 12:07:19.927: [INFO] OnDoneLoading sync enabled: 0
+2026-07-18 12:09:37.024: [INFO] OnDoneLoading sync enabled: 0
+2026-07-18 12:10:56.998: [INFO] OnDoneLoading sync enabled: 0
+2026-07-18 12:18:19.237: [INFO] OnDoneLoading sync enabled: 0
+2026-07-18 12:25:57.962: [INFO] OnDoneLoading sync enabled: 0
+2026-07-18 12:31:03.167: [INFO] OnDoneLoading sync enabled: 0
+2026-07-18 12:33:41.083: [INFO] OnDoneLoading sync enabled: 0
+2026-07-18 12:35:04.105: [INFO] OnDoneLoading sync enabled: 0
+2026-07-20 11:10:57.314: [INFO] OnDoneLoading sync enabled: 0
+2026-07-20 11:12:43.046: [INFO] OnDoneLoading sync enabled: 0
+2026-07-20 11:13:48.400: [INFO] OnDoneLoading sync enabled: 0
+2026-07-22 09:48:23.030: [INFO] OnDoneLoading sync enabled: 0
+2026-07-22 10:11:19.359: [INFO] OnDoneLoading sync enabled: 0
+2026-07-22 10:32:52.703: [INFO] OnDoneLoading sync enabled: 0
+2026-07-23 13:07:50.084: [INFO] OnDoneLoading sync enabled: 0
+2026-07-26 14:01:59.444: [INFO] OnDoneLoading sync enabled: 0
+2026-09-12 12:39:03.420: [INFO] CurrentProfilePath: D:\JAVA\Spring-Boot-2026\SB-Workspaces\01-spring-core-Workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 12:39:03.420: [INFO] Profiles total count: 1
+2026-09-12 12:39:03.420: [INFO] Profile: name=Profile 1 path=D:\JAVA\Spring-Boot-2026\SB-Workspaces\01-spring-core-Workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-06-26T13:49:06.574Z
+2026-09-12 12:39:03.420: [INFO] LastUsedProfileDir: D:\JAVA\Spring-Boot-2026\SB-Workspaces\01-spring-core-Workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 12:39:03.420: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\JAVA\Spring-Boot-2026\SB-Workspaces\01-spring-core-Workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-06-26T13:49:06.574Z
+2026-09-12 12:39:03.420: [INFO] OnDoneLoading sync enabled: 0
+2026-09-12 12:39:03.420: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-12 12:39:03.420: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-12 12:39:03.420: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 12:41:02.910: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 13:23:53.377: [INFO] CurrentProfilePath: D:\JAVA\Spring-Boot-2026\SB-Workspaces\01-spring-core-Workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 13:23:53.377: [INFO] Profiles total count: 1
+2026-09-12 13:23:53.377: [INFO] Profile: name=Profile 1 path=D:\JAVA\Spring-Boot-2026\SB-Workspaces\01-spring-core-Workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-06-26T13:49:06.574Z
+2026-09-12 13:23:53.377: [INFO] LastUsedProfileDir: D:\JAVA\Spring-Boot-2026\SB-Workspaces\01-spring-core-Workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 13:23:53.377: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\JAVA\Spring-Boot-2026\SB-Workspaces\01-spring-core-Workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-06-26T13:49:06.574Z
+2026-09-12 13:23:53.377: [INFO] OnDoneLoading sync enabled: 0
+2026-09-12 13:23:53.377: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-12 13:23:53.377: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-12 13:23:53.378: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 14:26:52.829: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
