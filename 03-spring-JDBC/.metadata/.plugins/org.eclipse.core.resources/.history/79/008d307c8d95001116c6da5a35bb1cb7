@@ -1,0 +1,55 @@
+package com.example.demo;
+
+import java.util.Scanner;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+import com.example.demo.model.Student;
+import com.example.demo.repository.StudentRepository;
+
+@SpringBootApplication
+public class Application {
+
+	private final StudentRepository studentRepository;
+
+	Application(StudentRepository studentRepository) {
+		this.studentRepository = studentRepository;
+	}
+
+	public static void main(String[] args) {
+		ApplicationContext context=SpringApplication.run(Application.class, args);
+		
+		StudentRepository sr= context.getBean(StudentRepository.class);
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Student Records");
+		
+		System.out.println("Enter Rno");
+		int rno=sc.nextInt();
+		
+		System.out.println("Enter Name");
+		String name=sc.nextLine();
+		sc.nextLine();
+		
+		System.out.println("Enter Percentage");
+		double per=sc.nextDouble();
+		
+		System.out.println("Enter City");
+		String city=sc.next();
+		
+		Student s=new Student(rno,name,per,city);
+		boolean status=sr.saveStudent(s);
+		if(status)
+		{
+			System.out.println("Record Inserted successfully");
+		}
+		else
+		{
+			System.out.println("Record not Inserted");
+		}
+		
+		
+	}
+
+}

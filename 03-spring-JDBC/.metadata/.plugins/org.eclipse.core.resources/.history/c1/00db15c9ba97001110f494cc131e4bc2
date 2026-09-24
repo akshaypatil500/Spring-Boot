@@ -1,0 +1,27 @@
+package com.example.demo.runner;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.ApplicationArguments;
+import org.springframework.boot.ApplicationRunner;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Component;
+
+@Component
+public class MyRunner implements ApplicationRunner{
+
+	@Autowired
+	JdbcTemplate jt;
+	
+	@Override
+	public void run(ApplicationArguments args) throws Exception {
+
+		jt.execute("create table student\r\n"
+				+ "(rno int,\r\n"
+				+ "name varchar(20),\r\n"
+				+ "per float,\r\n"
+				+ "city varchar(10)); ");
+	}
+	
+	
+
+}

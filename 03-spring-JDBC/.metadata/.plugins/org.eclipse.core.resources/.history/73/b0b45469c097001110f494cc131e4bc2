@@ -1,0 +1,66 @@
+package com.example.demo.repository;
+
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.example.demo.model.Student;
+
+@Repository
+public class StudentRepository {
+	
+	@Autowired
+	JdbcTemplate jt;
+	
+	public int saveStudent(Student s)
+	{
+		String sql="insert into student values(?,?,?,?)";
+		
+		return jt.update(sql,s.getRno(),s.getName(),s.getPer(),s.getCity());
+		
+		
+	}
+	
+	public int deleteStudent(int rno)
+	{
+		String sql="delete from student where rno=?";
+		
+		return jt.update(sql,rno);
+	}
+	
+	public int deleteStudent(String city)
+	{
+		String sql="delete from student where city=?";
+		
+		return jt.update(sql,city);
+	}
+	
+	public int updateStudent(Student s) {
+
+	    String sql = "UPDATE student SET name=?, per=?, city=? WHERE rno=?";
+
+	    return jt.update(
+	        sql,
+	        s.getName(),
+	        s.getPer(),
+	        s.getCity(),
+	        s.getRno()
+	    );
+	}
+	
+	public Map<String,Object> fingById(int rno)
+	{
+		String sql="select * from student where rno=?";
+		return jt.queryForMap(sql,rno);
+	}
+	
+	public List<Map<String,Object>> fingAll()
+	{
+		String sql="select * from student";
+		return jt.queryForList(sql);
+	}
+
+}

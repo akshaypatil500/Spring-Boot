@@ -1,0 +1,29 @@
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+import com.example.demo.model.Student;
+import com.example.demo.repository.StudentRepository;
+
+@SpringBootApplication
+public class Application {
+
+	private final StudentRepository studentRepository;
+
+	Application(StudentRepository studentRepository) {
+		this.studentRepository = studentRepository;
+	}
+
+	public static void main(String[] args) {
+		ApplicationContext context=SpringApplication.run(Application.class, args);
+		
+		StudentRepository sr= context.getBean(StudentRepository.class);
+		Student s=new Student(101,"AAA",67,"pune");
+		sr.saveStudent(s);
+		
+		
+	}
+
+}
