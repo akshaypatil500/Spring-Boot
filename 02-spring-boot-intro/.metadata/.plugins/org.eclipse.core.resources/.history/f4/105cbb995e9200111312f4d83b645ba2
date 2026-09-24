@@ -1,0 +1,47 @@
+package com.tca.runner;
+
+import java.util.List;
+import java.util.Set;
+
+import org.springframework.boot.ApplicationArguments;
+import org.springframework.boot.ApplicationRunner;
+import org.springframework.stereotype.Component;
+
+@Component
+public class MyRunner implements ApplicationRunner {
+
+	@Override
+	public void run(ApplicationArguments args) throws Exception {
+
+		
+		
+
+		if (args.containsOption("theme.mode")) {
+		} else {
+		}
+		
+		Set<String> set=args.getOptionNames();
+		System.out.println("KEYS"+set);
+		
+		for(String key:set)
+		{
+			if (key.contains("Dark")) 
+			{
+				System.out.println("Dark Mode Activated");
+
+			}
+			else if(key.contains("Light"))
+			{
+				System.out.println("Light Mode Activated");
+
+			}
+			else
+			{
+				System.out.println("Light Mode Activated");
+
+			}
+		}
+
+	}
+
+}

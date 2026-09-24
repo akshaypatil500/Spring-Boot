@@ -1,0 +1,30 @@
+import java.util.Set;
+import org.springframework.boot.ApplicationArguments;
+import org.springframework.boot.ApplicationRunner;
+import org.springframework.stereotype.Component;
+
+@Component
+public class MyRunner implements ApplicationRunner {
+
+    @Override
+    public void run(ApplicationArguments args) {
+
+        Set<String> options = args.getOptionNames();
+
+        if(options.contains("dark")) {
+
+            System.out.println("Dark Mode Activated");
+
+        }
+        else if(options.contains("light")) {
+
+            System.out.println("Light Mode Activated");
+
+        }
+        else {
+
+            System.out.println("Light Mode Activated");
+
+        }
+    }
+}

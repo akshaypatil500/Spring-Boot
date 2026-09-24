@@ -1,0 +1,27 @@
+package com.tca.bean;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class GreetBean {
+	/*
+     @Autowired	
+	 private WelcomeBean wb;
+    */
+	
+	 private WelcomeBean wb;
+
+     public GreetBean()
+     {
+    	   System.out.println("GreetBean Object Created");
+     }
+     
+     public void greet()
+     {
+    	   wb.print();
+     }
+	 
+	 
+
+}
