@@ -1,0 +1,516 @@
+!SESSION 2026-09-22 21:19:26.641 -----------------------------------------------
+eclipse.buildId=4.40.0.202606090740
+java.version=25.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.springtools
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.springtools
+
+!ENTRY ch.qos.logback.classic 1 0 2026-09-22 21:20:19.204
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-09-22 21:22:39.666
+!MESSAGE Logback config file: D:\JAVA\Spring-Boot-2026\SB-Workspaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-09-22 21:22:40.430
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-09-22 21:22:40.430
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-09-22 21:22:41.454
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-09-22 21:22:41.454
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-09-22 21:23:02.410
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\G P LOHARKHEDE'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2026-09-22 21:41:04.351 -----------------------------------------------
+eclipse.buildId=4.40.0.202606090740
+java.version=25.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.springtools
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.springtools
+
+!ENTRY ch.qos.logback.classic 1 0 2026-09-22 21:41:11.111
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-09-22 21:42:43.790
+!MESSAGE Logback config file: D:\JAVA\Spring-Boot-2026\SB-Workspaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-09-22 21:42:44.750
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-09-22 21:42:44.750
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-09-22 21:42:45.708
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-09-22 21:42:45.708
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-09-22 21:42:56.930
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\G P LOHARKHEDE'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-22 21:53:45.334
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:281)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.fillBuffer(AutoLFInputStream.java:213)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.read(AutoLFInputStream.java:169)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:212)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:117)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:92)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:304)
+	at org.eclipse.egit.ui.internal.staging.StagingView$61.run(StagingView.java:4056)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-22 21:54:39.195
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:281)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.fillBuffer(AutoLFInputStream.java:213)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.read(AutoLFInputStream.java:169)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:212)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:117)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:92)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:304)
+	at org.eclipse.egit.ui.internal.staging.StagingView$61.run(StagingView.java:4056)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-22 21:56:14.885
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:281)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.fillBuffer(AutoLFInputStream.java:213)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.read(AutoLFInputStream.java:169)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:212)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:117)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:92)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:304)
+	at org.eclipse.egit.ui.internal.staging.StagingView$61.run(StagingView.java:4056)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-22 21:56:57.438
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:281)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.fillBuffer(AutoLFInputStream.java:213)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.read(AutoLFInputStream.java:169)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:212)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:117)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:92)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:304)
+	at org.eclipse.egit.ui.internal.staging.StagingView$61.run(StagingView.java:4056)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-22 21:57:39.573
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:281)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.fillBuffer(AutoLFInputStream.java:213)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.read(AutoLFInputStream.java:169)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:212)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:117)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:92)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:304)
+	at org.eclipse.egit.ui.internal.staging.StagingView$61.run(StagingView.java:4056)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-22 21:57:59.667
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:281)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.fillBuffer(AutoLFInputStream.java:213)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.read(AutoLFInputStream.java:169)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:212)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:117)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:92)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:304)
+	at org.eclipse.egit.ui.internal.staging.StagingView$61.run(StagingView.java:4056)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-22 21:58:34.566
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:281)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.fillBuffer(AutoLFInputStream.java:213)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.read(AutoLFInputStream.java:169)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:212)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:117)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:92)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:304)
+	at org.eclipse.egit.ui.internal.staging.StagingView$61.run(StagingView.java:4056)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-09-22 21:59:36.916
+!MESSAGE DelegatingStreamConnectionProvider - Stopping Boot LS
+!SESSION 2026-09-22 21:59:41.862 -----------------------------------------------
+eclipse.buildId=4.40.0.202606090740
+java.version=25.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.springtools
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.springtools
+
+!ENTRY ch.qos.logback.classic 1 0 2026-09-22 21:59:48.676
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-09-22 21:59:55.154
+!MESSAGE Logback config file: D:\JAVA\Spring-Boot-2026\SB-Workspaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-09-22 21:59:56.087
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-09-22 21:59:56.088
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-09-22 21:59:57.110
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-09-22 21:59:57.110
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-09-22 22:00:07.125
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\G P LOHARKHEDE'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-22 22:00:50.341
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:281)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.fillBuffer(AutoLFInputStream.java:213)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.read(AutoLFInputStream.java:169)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:212)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:117)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:92)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:304)
+	at org.eclipse.egit.ui.internal.staging.StagingView$61.run(StagingView.java:4056)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2026-09-22 22:07:29.744 -----------------------------------------------
+eclipse.buildId=4.40.0.202606090740
+java.version=25.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.springtools
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.springtools
+
+!ENTRY ch.qos.logback.classic 1 0 2026-09-22 22:07:36.199
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-09-22 22:08:24.754
+!MESSAGE Logback config file: D:\JAVA\Spring-Boot-2026\SB-Workspaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-09-22 22:08:25.709
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-09-22 22:08:25.709
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-09-22 22:08:26.638
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-09-22 22:08:26.638
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-09-22 22:08:37.177
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\G P LOHARKHEDE'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-22 22:16:22.067
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:281)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.fillBuffer(AutoLFInputStream.java:213)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.read(AutoLFInputStream.java:169)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:212)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:117)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:92)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:304)
+	at org.eclipse.egit.ui.internal.staging.StagingView$61.run(StagingView.java:4056)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-22 22:17:01.737
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:281)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.fillBuffer(AutoLFInputStream.java:213)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.read(AutoLFInputStream.java:169)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:212)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:117)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:92)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:304)
+	at org.eclipse.egit.ui.internal.staging.StagingView$61.run(StagingView.java:4056)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-22 22:17:57.807
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:281)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.fillBuffer(AutoLFInputStream.java:213)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.read(AutoLFInputStream.java:169)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:212)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:117)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:92)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:304)
+	at org.eclipse.egit.ui.internal.staging.StagingView$61.run(StagingView.java:4056)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-22 22:19:13.123
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:281)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.fillBuffer(AutoLFInputStream.java:213)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.read(AutoLFInputStream.java:169)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:212)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:117)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:92)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:304)
+	at org.eclipse.egit.ui.internal.staging.StagingView$61.run(StagingView.java:4056)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2026-09-24 14:28:53.043 -----------------------------------------------
+eclipse.buildId=4.40.0.202606090740
+java.version=25.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.springtools
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.springtools -data D:\JAVA\Spring-Boot-2026\SB-Workspaces
+
+!ENTRY ch.qos.logback.classic 1 0 2026-09-24 14:29:23.922
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-09-24 14:29:28.490
+!MESSAGE Logback config file: D:\JAVA\Spring-Boot-2026\SB-Workspaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-09-24 14:29:29.546
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-09-24 14:29:29.546
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-09-24 14:29:30.505
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-09-24 14:29:30.505
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-09-24 14:29:41.417
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\G P LOHARKHEDE'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-24 14:30:48.111
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:281)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.fillBuffer(AutoLFInputStream.java:213)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.read(AutoLFInputStream.java:169)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:212)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:117)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:92)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:304)
+	at org.eclipse.egit.ui.internal.staging.StagingView$61.run(StagingView.java:4056)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-24 14:34:22.080
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:281)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.fillBuffer(AutoLFInputStream.java:213)
+	at org.eclipse.jgit.util.io.AutoLFInputStream.read(AutoLFInputStream.java:169)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:212)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:117)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:92)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:304)
+	at org.eclipse.egit.ui.internal.staging.StagingView$61.run(StagingView.java:4056)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-24 14:36:19.177
+!MESSAGE Can't connect to any repository: 
+
+!ENTRY org.eclipse.egit.core 4 0 2026-09-24 14:48:15.880
+!MESSAGE An exception occurred during push on URI https://github.com/akshaypatil500/Spring-Boot.git: https://github.com/akshaypatil500/Spring-Boot.git: 408 Request Timeout
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/akshaypatil500/Spring-Boot.git: 408 Request Timeout
+	at org.eclipse.jgit.transport.TransportHttp$Service.openResponse(TransportHttp.java:1830)
+	at org.eclipse.jgit.transport.TransportHttp$MultiRequestService.execute(TransportHttp.java:1936)
+	at org.eclipse.jgit.transport.TransportHttp$Service$HttpExecuteStream.read(TransportHttp.java:1860)
+	at org.eclipse.jgit.util.io.UnionInputStream.read(UnionInputStream.java:114)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at org.eclipse.jgit.util.io.TimeoutInputStream.read(TimeoutInputStream.java:87)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:142)
+	at org.eclipse.jgit.transport.PacketLineIn.readLength(PacketLineIn.java:305)
+	at org.eclipse.jgit.transport.SideBandInputStream.needDataPacket(SideBandInputStream.java:128)
+	at org.eclipse.jgit.transport.SideBandInputStream.read(SideBandInputStream.java:110)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:142)
+	at org.eclipse.jgit.transport.PacketLineIn.readLength(PacketLineIn.java:305)
+	at org.eclipse.jgit.transport.PacketLineIn.readString(PacketLineIn.java:169)
+	at org.eclipse.jgit.transport.BasePackPushConnection.readStringLongTimeout(BasePackPushConnection.java:420)
+	at org.eclipse.jgit.transport.BasePackPushConnection.readStatusReport(BasePackPushConnection.java:353)
+	at org.eclipse.jgit.transport.BasePackPushConnection.doPush(BasePackPushConnection.java:198)
+	at org.eclipse.jgit.transport.TransportHttp$SmartHttpPushConnection.doPush(TransportHttp.java:1602)
+	at org.eclipse.jgit.transport.BasePackPushConnection.push(BasePackPushConnection.java:136)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:181)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1537)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-24 14:48:15.881
+!MESSAGE Can't connect to any repository: https://github.com/akshaypatil500/Spring-Boot.git (https://github.com/akshaypatil500/Spring-Boot.git: 408 Request Timeout)
+
+!ENTRY org.eclipse.egit.core 4 0 2026-09-24 15:13:52.429
+!MESSAGE An exception occurred during push on URI https://github.com/akshaypatil500/Spring-Boot.git: https://github.com/akshaypatil500/Spring-Boot.git: 408 Request Timeout
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/akshaypatil500/Spring-Boot.git: 408 Request Timeout
+	at org.eclipse.jgit.transport.TransportHttp$Service.openResponse(TransportHttp.java:1830)
+	at org.eclipse.jgit.transport.TransportHttp$MultiRequestService.execute(TransportHttp.java:1936)
+	at org.eclipse.jgit.transport.TransportHttp$Service$HttpExecuteStream.read(TransportHttp.java:1860)
+	at org.eclipse.jgit.util.io.UnionInputStream.read(UnionInputStream.java:114)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at org.eclipse.jgit.util.io.TimeoutInputStream.read(TimeoutInputStream.java:87)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:142)
+	at org.eclipse.jgit.transport.PacketLineIn.readLength(PacketLineIn.java:305)
+	at org.eclipse.jgit.transport.SideBandInputStream.needDataPacket(SideBandInputStream.java:128)
+	at org.eclipse.jgit.transport.SideBandInputStream.read(SideBandInputStream.java:110)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:142)
+	at org.eclipse.jgit.transport.PacketLineIn.readLength(PacketLineIn.java:305)
+	at org.eclipse.jgit.transport.PacketLineIn.readString(PacketLineIn.java:169)
+	at org.eclipse.jgit.transport.BasePackPushConnection.readStringLongTimeout(BasePackPushConnection.java:420)
+	at org.eclipse.jgit.transport.BasePackPushConnection.readStatusReport(BasePackPushConnection.java:353)
+	at org.eclipse.jgit.transport.BasePackPushConnection.doPush(BasePackPushConnection.java:198)
+	at org.eclipse.jgit.transport.TransportHttp$SmartHttpPushConnection.doPush(TransportHttp.java:1602)
+	at org.eclipse.jgit.transport.BasePackPushConnection.push(BasePackPushConnection.java:136)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:181)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1537)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-24 15:13:52.432
+!MESSAGE Can't connect to any repository: https://github.com/akshaypatil500/Spring-Boot.git (https://github.com/akshaypatil500/Spring-Boot.git: 408 Request Timeout)
+
+!ENTRY org.eclipse.egit.core 4 0 2026-09-24 15:17:36.724
+!MESSAGE An exception occurred during push on URI https://github.com/akshaypatil500/Spring-Boot.git: https://github.com/akshaypatil500/Spring-Boot.git: 408 Request Timeout
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/akshaypatil500/Spring-Boot.git: 408 Request Timeout
+	at org.eclipse.jgit.transport.TransportHttp$Service.openResponse(TransportHttp.java:1830)
+	at org.eclipse.jgit.transport.TransportHttp$MultiRequestService.execute(TransportHttp.java:1936)
+	at org.eclipse.jgit.transport.TransportHttp$Service$HttpExecuteStream.read(TransportHttp.java:1860)
+	at org.eclipse.jgit.util.io.UnionInputStream.read(UnionInputStream.java:114)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at org.eclipse.jgit.util.io.TimeoutInputStream.read(TimeoutInputStream.java:87)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:142)
+	at org.eclipse.jgit.transport.PacketLineIn.readLength(PacketLineIn.java:305)
+	at org.eclipse.jgit.transport.SideBandInputStream.needDataPacket(SideBandInputStream.java:128)
+	at org.eclipse.jgit.transport.SideBandInputStream.read(SideBandInputStream.java:110)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:142)
+	at org.eclipse.jgit.transport.PacketLineIn.readLength(PacketLineIn.java:305)
+	at org.eclipse.jgit.transport.PacketLineIn.readString(PacketLineIn.java:169)
+	at org.eclipse.jgit.transport.BasePackPushConnection.readStringLongTimeout(BasePackPushConnection.java:420)
+	at org.eclipse.jgit.transport.BasePackPushConnection.readStatusReport(BasePackPushConnection.java:353)
+	at org.eclipse.jgit.transport.BasePackPushConnection.doPush(BasePackPushConnection.java:198)
+	at org.eclipse.jgit.transport.TransportHttp$SmartHttpPushConnection.doPush(TransportHttp.java:1602)
+	at org.eclipse.jgit.transport.BasePackPushConnection.push(BasePackPushConnection.java:136)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:181)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1537)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-24 15:17:36.726
+!MESSAGE Can't connect to any repository: https://github.com/akshaypatil500/Spring-Boot.git (https://github.com/akshaypatil500/Spring-Boot.git: 408 Request Timeout)
+
+!ENTRY org.eclipse.egit.core 4 0 2026-09-24 15:19:15.916
+!MESSAGE An exception occurred during push on URI https://github.com/akshaypatil500/Spring-Boot.git: https://github.com/akshaypatil500/Spring-Boot.git: 408 Request Timeout
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/akshaypatil500/Spring-Boot.git: 408 Request Timeout
+	at org.eclipse.jgit.transport.TransportHttp$Service.openResponse(TransportHttp.java:1830)
+	at org.eclipse.jgit.transport.TransportHttp$MultiRequestService.execute(TransportHttp.java:1936)
+	at org.eclipse.jgit.transport.TransportHttp$Service$HttpExecuteStream.read(TransportHttp.java:1860)
+	at org.eclipse.jgit.util.io.UnionInputStream.read(UnionInputStream.java:114)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at org.eclipse.jgit.util.io.TimeoutInputStream.read(TimeoutInputStream.java:87)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:142)
+	at org.eclipse.jgit.transport.PacketLineIn.readLength(PacketLineIn.java:305)
+	at org.eclipse.jgit.transport.SideBandInputStream.needDataPacket(SideBandInputStream.java:128)
+	at org.eclipse.jgit.transport.SideBandInputStream.read(SideBandInputStream.java:110)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:508)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:142)
+	at org.eclipse.jgit.transport.PacketLineIn.readLength(PacketLineIn.java:305)
+	at org.eclipse.jgit.transport.PacketLineIn.readString(PacketLineIn.java:169)
+	at org.eclipse.jgit.transport.BasePackPushConnection.readStringLongTimeout(BasePackPushConnection.java:420)
+	at org.eclipse.jgit.transport.BasePackPushConnection.readStatusReport(BasePackPushConnection.java:353)
+	at org.eclipse.jgit.transport.BasePackPushConnection.doPush(BasePackPushConnection.java:198)
+	at org.eclipse.jgit.transport.TransportHttp$SmartHttpPushConnection.doPush(TransportHttp.java:1602)
+	at org.eclipse.jgit.transport.BasePackPushConnection.push(BasePackPushConnection.java:136)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:181)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1537)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-24 15:19:15.918
+!MESSAGE Can't connect to any repository: https://github.com/akshaypatil500/Spring-Boot.git (https://github.com/akshaypatil500/Spring-Boot.git: 408 Request Timeout)
