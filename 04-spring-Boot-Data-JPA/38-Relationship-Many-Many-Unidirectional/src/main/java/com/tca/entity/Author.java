@@ -1,5 +1,6 @@
 package com.tca.entity;
 
+import java.awt.print.Book;
 import java.util.List;
 
 import jakarta.persistence.CascadeType;
@@ -17,11 +18,10 @@ import lombok.NoArgsConstructor;
 @Data
 public class Author {
 
-	@Id
+	@Id 
 	private Long aid;
 	
 	private String authorName;
 	
-	@ManyToMany(cascade =CascadeType.ALL,fetch = FetchType.LAZY)
-	private List<Book> book;
+	
 }

@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 public class Book {
 
 	@Id
-	private Long bid;
+	private Long id;
 	
 	private String bookName;
 	
@@ -30,12 +30,10 @@ public class Book {
 			CascadeType.REFRESH,
 			CascadeType.DETACH
 			
-	},
-			fetch = FetchType.LAZY)
-	@JoinTable(
-			   name="Book_Author",
-	           joinColumns = @JoinColumn(name="Book_ID"),
-			   inverseJoinColumns =@JoinColumn(name="Author_ID")    
-			)
+	},fetch = FetchType.LAZY)
+	@JoinTable(name="Book_Author",
+	           joinColumns = @JoinColumn(name="Book_Id"),
+	           inverseJoinColumns = @JoinColumn(name="Author_Id")
+			)      
 	private List<Author> author;
 }
