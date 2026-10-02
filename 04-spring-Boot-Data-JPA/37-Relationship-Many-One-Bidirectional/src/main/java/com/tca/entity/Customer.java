@@ -28,7 +28,7 @@ public class Customer {
    
    private Long phone;
    
-   @OneToMany(fetch = FetchType.EAGER,mappedBy = "customer")
+   @OneToMany(fetch = FetchType.EAGER,cascade = CascadeType.ALL, mappedBy = "customer")
    private List<Orders> orders;
 
 }

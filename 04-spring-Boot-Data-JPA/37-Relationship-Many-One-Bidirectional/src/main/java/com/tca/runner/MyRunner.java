@@ -1,10 +1,16 @@
 package com.tca.runner;
 
+import java.time.LocalDate;
+
+import org.antlr.v4.runtime.atn.SemanticContext.OR;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
+import com.tca.entity.Customer;
+import com.tca.entity.OrderStatus;
+import com.tca.entity.Orders;
 import com.tca.service.CustomerService;
 import com.tca.service.OrdersService;
 import com.tca.serviceimpl.OrdersServiceImpl;
@@ -53,8 +59,26 @@ public class MyRunner implements ApplicationRunner {
 		o2.setCustomer(c);
 		
 		customerService.save(c);
+	
 		
-*/		
+		   //   OR
+		      
+		  Customer c = new Customer();
+          c.setName("BBB");
+          c.setPhone(9999L);
+
+          customerService.save(c);
+
+          Orders o1 = new Orders();
+          o1.setOrderId(101L);
+          o1.setDatePurchased(LocalDate.now());
+          o1.setOrderStatus(OrderStatus.DELIVERED);
+
+          o1.setCustomer(c);
+
+          ordersService.saveOrder(o1); 
+		
+*/			
 
 		
 		
@@ -120,8 +144,9 @@ public class MyRunner implements ApplicationRunner {
 			
 */
 	
-		ordersService.deleteOrderById(101L);
-		
+//		ordersService.deleteOrderById(101L);
+//		customerService.deleteCustomerByID(1L);
+//		
 		
 		
 		

@@ -8,6 +8,8 @@ import com.tca.entity.Orders;
 import com.tca.repository.OrderRepository;
 import com.tca.service.OrdersService;
 
+import jakarta.transaction.Transactional;
+
 @Service(value="OrderService")
 public class OrdersServiceImpl implements OrdersService {
 
@@ -32,12 +34,18 @@ public class OrdersServiceImpl implements OrdersService {
 		return orderRepository.save(order);
 	}
 
-
+	
 	@Override
 	public void deleteOrderById(Long oid) {
 	
 		orderRepository.deleteById(oid);
 		
+	}
+
+	@Override
+	public Orders saveOrder(Orders order) {
+		
+		return orderRepository.save(order);
 	}
 
 }

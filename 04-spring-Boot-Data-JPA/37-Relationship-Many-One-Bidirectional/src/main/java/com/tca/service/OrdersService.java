@@ -11,5 +11,7 @@ public interface OrdersService {
 	
 	public Orders saveOrder(Orders order,Customer customer);
 	
+	public Orders saveOrder(Orders order);
+	
 	public void deleteOrderById(Long oid);
 }

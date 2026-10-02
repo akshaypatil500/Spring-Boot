@@ -10,6 +10,7 @@ import jakarta.persistence.Enumerated;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import lombok.AllArgsConstructor;
@@ -31,7 +32,14 @@ public class Orders {
 	@Column(name = "status")
 	private OrderStatus orderStatus;
 
-	@ManyToOne(fetch = FetchType.EAGER)
+	@ManyToOne(cascade = {
+			CascadeType.PERSIST,
+			CascadeType.MERGE,
+			CascadeType.REFRESH,
+			CascadeType.DETACH
+			},
+	     fetch = FetchType.LAZY
+	 )	
 	@JoinColumn(name = "cust_id")
 	private Customer customer;
 }
