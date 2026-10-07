@@ -4,10 +4,10 @@
     <div>
         <h2 style="color:red;">User Information</h2>
 
-        <h3 style="color: yellow;">User Name   : ${a}</h3>
-        <h3 style="color: yellow;>User Email  : ${b}</h3>
-        <h3 style="color: yellow;>User Mobile : ${c}</h3>
-        <h3 style="color: yellow;>User Gender : ${d}</h3>
+        <h3 style="color: blue;">User Name   : ${a}</h3>
+        <h3 style="color:blue;">User Email  : ${b}</h3>
+        <h3 style="color:blue;">User Mobile : ${c}</h3>
+        <h3 style="color:blue;">User Gender : ${d}</h3>
 
         <br>
 
