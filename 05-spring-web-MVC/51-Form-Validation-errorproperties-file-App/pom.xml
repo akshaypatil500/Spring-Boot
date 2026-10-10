@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tca</groupId>
-	<artifactId>48-Form-Binding-App</artifactId>
+	<artifactId>48-Form-Validation-App</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>48-Form-Binding-App</name>
+	<name>48-Form-Validation-App</name>
 	<description />
 	<url />
 	<licenses>
@@ -36,15 +36,22 @@
 			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
 
-
-		<!-- JSP Jasper Processor -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
 
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
 		</dependency>
 
-		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
