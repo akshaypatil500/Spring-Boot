@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Employee List</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 40px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            margin-top: 25px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color:goldenrod;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #e8f0fe;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Employee List</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>EMPNO</th>
+                <th>EMP NAME</th>
+                <th>EMAIL</th>
+                <th>DEPT NO</th>
+                <th>SALARY</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr th:each="emp : ${pageContent}">
+                <td th:text="${emp.id}"></td>
+                <td th:text="${emp.name}"></td>
+                <td th:text="${emp.email}"></td>
+                <td th:text="${emp.department}"></td>
+                <td th:text="${emp.salary}"></td>
+            </tr>
+        </tbody>
+		
+		
+    </table>
+	
+	<div style="display: flex; justify-content: center; gap: 400px; margin-top: 20px;">
+	    <span th:if="${hasPrevious}">
+	        <a style="text-decoration: none; color:blue;"  th:href="@{/show(pageNumber=${currentPage - 1})}">
+	            Previous
+	        </a>
+	    </span>
+
+	    <span th:if="${hasNext}">
+	        <a style="text-decoration: none; color:blue;"  th:href="@{/show(pageNumber=${currentPage + 1})}">
+	            Next
+	        </a>
+	    </span>
+	</div>
+
+</body>
+</html>
