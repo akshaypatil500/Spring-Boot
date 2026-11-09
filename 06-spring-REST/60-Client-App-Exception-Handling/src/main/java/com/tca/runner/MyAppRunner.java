@@ -33,7 +33,7 @@ public class MyAppRunner implements ApplicationRunner {
 		
 		// Calling GET/employee/{id} via exchange()
 
-		ResponseEntity<?> re=null;
+		ResponseEntity<?> re=null;        //wildcard
 		try {
 		
 			        re=restTemplate.exchange(
@@ -41,7 +41,7 @@ public class MyAppRunner implements ApplicationRunner {
 					 HttpMethod.GET,                              // HTTP Method
 					 null,                                        // NO Request Body 
 					 Employee.class,                              // Response Type  
-					 100                                          // URI Variable
+					 1                                            // URI Variable
 					 ); 
 			
 			  HttpStatusCode status= re.getStatusCode();
